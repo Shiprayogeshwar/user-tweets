@@ -28,6 +28,5 @@ def show_tweets(screen_name):
         tweets = tweepy_api.user_timeline(screen_name=screen_name)
     except Exception as e:
         return str(e)
-        # print("Sorry tweets can't be retrieved.")
     result = tweets_schema.dump(tweets)
     return jsonify(result.data)
