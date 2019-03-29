@@ -1,0 +1,4 @@
+Flask=1.0.2
+flask-marshmallow=0.10.0
+tweepy=3.7.0
+Flask-Tweepy=0.1
